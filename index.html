@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fake Hacker Terminal</title>
+    <title>Internet Simulator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="terminal">
-    <pre id="output"></pre>
+<div class="container">
+    <h1>🌐 Internet Simulator</h1>
 
-    <button id="nukeBtn" style="display:none;">
-        LAUNCH NUCLEAR POTATO
+    <div class="stats">
+        <p>Year: <span id="year">1998</span></p>
+        <p>Money: $<span id="money">0</span></p>
+        <p>Income Per Click: <span id="income">1</span></p>
+    </div>
+
+    <button id="workBtn">Upload Website</button>
+
+    <h2>Upgrades</h2>
+
+    <button onclick="buyUpgrade(10,1)">
+        Better HTML ($10)
+    </button>
+
+    <button onclick="buyUpgrade(50,5)">
+        CSS ($50)
+    </button>
+
+    <button onclick="buyUpgrade(100,10)">
+        JavaScript ($100)
     </button>
 </div>
 
