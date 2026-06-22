@@ -1,21 +1,33 @@
 body{
-    background:black;
-    color:lime;
-    font-family:monospace;
-    margin:0;
-    padding:20px;
+    font-family:Arial, sans-serif;
+    background:#111827;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:40px;
 }
 
-.terminal{
-    max-width:800px;
+.container{
+    width:500px;
+    background:#1f2937;
+    padding:20px;
+    border-radius:12px;
+}
+
+h1{
+    text-align:center;
 }
 
 button{
-    background:lime;
-    color:black;
+    width:100%;
+    padding:12px;
+    margin-top:10px;
     border:none;
-    padding:12px 20px;
-    font-weight:bold;
+    border-radius:8px;
     cursor:pointer;
-    margin-top:20px;
+    font-size:16px;
+}
+
+#workBtn{
+    font-size:20px;
 }
