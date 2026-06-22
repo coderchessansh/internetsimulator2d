@@ -1,0 +1,21 @@
+body{
+    background:black;
+    color:lime;
+    font-family:monospace;
+    margin:0;
+    padding:20px;
+}
+
+.terminal{
+    max-width:800px;
+}
+
+button{
+    background:lime;
+    color:black;
+    border:none;
+    padding:12px 20px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:20px;
+}
